@@ -1,6 +1,7 @@
 ﻿using CommunityToolkit.Mvvm.Input;
 using CommunityToolkit.Mvvm.Messaging;
 using wpf_ct_sqlSugarTemplate.Helpers;
+using wpf_ct_sqlSugarTemplate.Messages;
 using wpf_ct_sqlSugarTemplate.Models;
 using wpf_ct_sqlSugarTemplate.Services;
 
@@ -26,9 +27,16 @@ public partial class MainViewModel
     }
 
     [RelayCommand]
-    public void Navigation(Menu menu)
+     void Navigation(Menu menu)
     {
         WeakReferenceMessenger.Default.Send(menu);
+    }
+
+    [RelayCommand]
+    void ChangeUser()
+    {
+        // 用户登出的消息
+        WeakReferenceMessenger.Default.Send(new LogoutMessage(UserSessionProp.CurrentUser));
     }
 
 

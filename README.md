@@ -5,10 +5,12 @@
 - IOC: Microsoft.Extensions.DependencyInjection
 - ¹¤¾ß¿â: Masuit.Tools
 
+### ¿â
+- CommunityToolkit.MVVM
+- Microsoft.Extensions.DependencyInjection
+- MaterialDesignThemes
+- MaterialDesignThemes.MahApps
+- Masuit.Tools.Core
+- SqlSugarCore
 
- CommunityToolkit.MVVM
- Microsoft.Extensions.DependencyInjection
- MaterialDesignThemes
- MaterialDesignThemes.MahApps
- Masuit.Tools.Core 
- SqlSugarCore
+

@@ -2,7 +2,7 @@
 
 namespace wpf_ct_sqlSugarTemplate.ViewModels;
 
-public class DeviceViewModel:ObservableObject
+public partial class DeviceViewModel:ObservableObject
 {
     
 }

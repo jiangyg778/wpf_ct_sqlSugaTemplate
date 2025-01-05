@@ -2,7 +2,7 @@
 
 namespace wpf_ct_sqlSugarTemplate.ViewModels;
 
-public partial class IndexViewModel: ObservableObject
+public partial class FormulaViewModel:ObservableObject
 {
     
 }
