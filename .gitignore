@@ -1,0 +1,89 @@
+# 编译输出文件夹
+bin/
+obj/
+
+# NuGet 包
+*.nupkg
+*.snupkg
+packages/
+project.lock.json
+project.fragment.lock.json
+
+# 用户文件（IDE 配置、调试设置等）
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Visual Studio 文件
+.vscode/
+.vs/
+*.vcxproj.user
+*.vcxproj.filters
+
+# Resharper / Rider 文件
+.idea/
+*.DotSettings.user
+*.DotSettings
+
+# 编译缓存
+*.log
+*.cache
+*.pdb
+*.ilk
+*.idb
+*.ipdb
+*.iobj
+*.tlog
+*.lastbuildstate
+*.unsuccessfulbuild
+
+# 应用日志
+*.log
+
+# 自动生成的文件
+Generated\*
+ServiceReferences\*
+*_TemporaryKey.pfx
+
+# Publish 文件夹
+.publish/
+*.Publish.xml
+
+# 调试和临时文件
+*.diff
+*.patch
+*.orig
+*.swp
+*.tmp
+*.temp
+~$*
+
+# 其他
+*.dbmdl
+*.opensdf
+*.sdf
+*.cache
+*.csproj.user
+*.pri
+*.aps
+*.aps.xml
+*.ilk
+*.ncrunch*
+_ReSharper.*
+
+# 本地配置文件
+appsettings.*.json
+secrets.json
+
+# Windows 文件
+Thumbs.db
+desktop.ini
+
+# WPF 相关文件
+*.g.i.cs
+*.g.cs
+*.Designer.cs
+
+# 图标缓存
+_DotImageCache/

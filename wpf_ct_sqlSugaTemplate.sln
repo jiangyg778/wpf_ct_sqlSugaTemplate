@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35201.131
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "wpf_ct_sqlSugarTemplate", "wpf_ct_sqlSugarTemplate.csproj", "{5CA59335-074F-4927-87F6-0D91C06FDE1B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5CA59335-074F-4927-87F6-0D91C06FDE1B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5CA59335-074F-4927-87F6-0D91C06FDE1B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5CA59335-074F-4927-87F6-0D91C06FDE1B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5CA59335-074F-4927-87F6-0D91C06FDE1B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {56948A0F-1495-4CC9-908C-F139153481CF}
+	EndGlobalSection
+EndGlobal
